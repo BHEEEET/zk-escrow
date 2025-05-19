@@ -9,7 +9,8 @@ crate-type = ["cdylib", "lib"]
 name = "zk_escrow"
 
 [features]
-default = []
+custom-heap = []
+default = ["custom-heap", "idl-build"]
 cpi = ["no-entrypoint"]
 no-entrypoint = []
 no-idl = []
