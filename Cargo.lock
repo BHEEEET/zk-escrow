@@ -4420,4 +4420,6 @@ dependencies = [
  "light-compressed-account",
  "light-compressed-token",
  "light-sdk",
+ "light-system-program",
+ "solana-program 2.2.1",
 ]
